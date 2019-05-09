@@ -17,6 +17,20 @@ self.addEventListener('install', function(event) {
         'assets/img/New-logo.png',
         'index.html',
         'paginas/agregar.js',
+        'paginas/listar.js',
+        'assets/css/bootstrap.css',
+        'assets/css/mma.css',
+        'manifest.json',
+        'assets/js/jquery.min.js',
+        'assets/js/popper.min.js',
+        'assets/js/bootstrap.min.js',
+        'assets/js/custom.js',
+        'assets/js/main.js',
+        'js/main.js',
+        'js/bootstrap.min.js',
+        'js/custom.js',
+        'js/jquery.min.js',
+        'js/popper.min.js',
       ]);
     })
   );
