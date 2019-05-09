@@ -25,7 +25,6 @@ self.addEventListener('install', function(event) {
         'assets/js/popper.min.js',
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js',
-        'assets/js/main.js',
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js',
         'assets/js/jquery.min.js',
