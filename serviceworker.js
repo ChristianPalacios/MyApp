@@ -14,9 +14,9 @@ self.addEventListener('install', function(event) {
       // And add resources to it
       
       return cache.addAll([
-        '/assets/img/logo.jpg',
-        '/index.html',
-        'http://127.0.0.1:8887/paginas/agregar.js',
+        'assets/img/New-logo.png',
+        'index.html',
+        'paginas/agregar.js',
       ]);
     })
   );
