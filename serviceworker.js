@@ -26,6 +26,7 @@ self.addEventListener('install', function(event) {
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js',
         'assets/js/main.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.js',
       ]);
     })
   );
