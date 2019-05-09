@@ -21,14 +21,6 @@ self.addEventListener('install', function(event) {
         'assets/css/bootstrap.css',
         'assets/css/mma.css',
         'manifest.json',
-        'assets/js/jquery.min.js',
-        'assets/js/popper.min.js',
-        'assets/js/bootstrap.min.js',
-        'assets/js/custom.js',
-        'assets/js/bootstrap.min.js',
-        'assets/js/custom.js',
-        'assets/js/jquery.min.js',
-        'assets/js/popper.min.js',
       ]);
     })
   );
