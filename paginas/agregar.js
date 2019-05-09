@@ -19,11 +19,11 @@
                 placeholder="Titulo de la tarea a realizar"
                 id="inputTitulo"
                 />
-            <small id="emailHelp" class="form-text text-muted">Descripcion corta de la tarea a realizar</small>
+            <small id="emailHelp" class="form-text text-muted">Descripción corta de la tarea a realizar</small>
         </div>
         
         <div class="form-group">
-            <label for="descripcion">Descripcion de nuestra tarea</label>
+            <label for="descripcion">Descripción de nuestra tarea</label>
             <textarea id="textareaDescripcion" class="form-control" id="descripcion" rows="3"></textarea>
         </div>
         
