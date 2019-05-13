@@ -2,7 +2,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('simple-sw-v4').then(function(cache) {
       return cache.addAll([
-        'assets/img/logo.jpg',
+        'assets/img/logo.png',
         'index.html'
       ]);
     })
