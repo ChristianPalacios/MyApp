@@ -52,19 +52,19 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('push', function(event) {
+//self.addEventListener('push', function(event) {
   //if (event.data) {
   //  console.log('Este evento push tiene datos: ', event.data.text());
   //} else {
   //  console.log('Este evento push no tiene datos.');
   //}
-const title = 'push prueba';
-const option = {
-  body: 'funcional.',
+//const title = 'push prueba';
+//const option = {
+//  body: 'funcional.',
 
-}
+//}
 
-});
+//});
 
 
 
