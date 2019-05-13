@@ -1,11 +1,4 @@
-<center>
-<div class="card border-danger mb-3" style="max-width: 20rem;">
-  <div class="card-header"></div>
-  <div class="card-body">
-    
-    <p class="card-text">
-    
-    <form>
+<form>
     <fieldset>
         <legend>Agregar Recordatorio</legend>
         
@@ -39,12 +32,11 @@
                 id="longitud"
                 />
         </div>
-        
+
         <button type="button" class="btn btn-primary" id="btnGuardar" >Guardar</button>
     </fieldset>
-    </form> 
 
-    </p>
-  </div>
-</div>
-</center>
+    <button type="button" onclick="llamadaafetch();" class="btn btn-secondary" id="btnFetch">Llamar a fetch</button>
+
+</form>
+
