@@ -5,6 +5,7 @@
   "display": "standalone",
   "background_color": "#2196F3",
   "theme_color": "#2196F3",
+  "start_url": "index.html?utm_source=homescreen",
   "icons": [
     {
       "src": "\/android-icon-36x36.png",
@@ -42,6 +43,5 @@
       "type": "image\/png",
       "density": "4.0"
      }
-  ],
-  "start_url": "index.html?utm_source=homescreen"
+  ]
 }
