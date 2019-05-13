@@ -26,6 +26,20 @@
             <textarea id="textareaDescripcion" class="form-control" id="descripcion" rows="3"></textarea>
         </div>
         
+        <div class="form-group">
+            <label for="titulo">Coordenadas</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="latitud"
+                />
+            <input 
+                type="text" 
+                class="form-control" 
+                id="longitud"
+                />
+        </div>
+        
         <button type="button" class="btn btn-primary" id="btnGuardar" >Guardar</button>
     </fieldset>
     </form> 
