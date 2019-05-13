@@ -52,6 +52,29 @@ self.addEventListener('install', function(event) {
   );
 });
 
+self.addEventListener('push', function(event) {
+  if (event.data) {
+    console.log('Este evento push tiene datos: ', event.data.text());
+  } else {
+    console.log('Este evento push no tiene datos.');
+  }
+});
+
+self.addEventListener('sync', function(event){
+  if (event.tag == "sincronizar"){
+    event.waitUntil(
+      new Promise((resolve, reject)=>{
+        fetch('a nuestra api').then((result)=>{
+          resolve();
+        })
+        .catch(()=>{
+          reject();
+        });
+      })
+    );
+  }
+});
+
 // The fetch event happens for the page request with the
 // ServiceWorker's scope, and any request made within that
 // page
