@@ -15,6 +15,7 @@ self.addEventListener('install', function(event) {
       
       return cache.addAll([
         'assets/img/logo.png',
+        'assets/img/android-icon-144x144.png',
         'assets/img/apple-icon-57x57.png',
         'assets/img/apple-icon-60x60.png',
         'assets/img/apple-icon-72x72.png',
