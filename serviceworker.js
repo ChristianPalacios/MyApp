@@ -14,7 +14,21 @@ self.addEventListener('install', function(event) {
       // And add resources to it
       
       return cache.addAll([
-        'assets/img/New-logo.png',
+        'assets/img/logo.png',
+        'assets/img/apple-icon-57x57.png',
+        'assets/img/apple-icon-60x60.png',
+        'assets/img/apple-icon-72x72.png',
+        'assets/img/apple-icon-76x76.png',
+        'assets/img/apple-icon-114x114.png',
+        'assets/img/apple-icon-120x120.png',
+        'assets/img/apple-icon-144x144.png',
+        'assets/img/apple-icon-152x152.png',
+        'assets/img/apple-icon-180x180.png',
+        'assets/img/android-icon-192x192.png', 
+        'assets/img/favicon-32x32.png',        
+        'assets/img/favicon-96x96.png',        
+        'assets/img/favicon-16x16.png',        
+        'assets/img/ms-icon-144x144.png',
         'index.html',
         'paginas/agregar.js',
         'paginas/listar.js',
