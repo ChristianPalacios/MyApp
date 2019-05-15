@@ -20,7 +20,7 @@
             <textarea id="textareaDescripcion" class="form-control" id="descripcion" rows="3"></textarea>
             </div>
 
-            <button type="button" class="btn btn-primary" id="btnGuardar" >Guardar</button>
+            <center><button type="button" class="btn btn-primary" id="btnGuardar" >Guardar</button></center>
         
             </p>
         </div>
