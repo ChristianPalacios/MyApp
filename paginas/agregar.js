@@ -60,22 +60,6 @@
             </p>
         </div>
         </div>
-
-        <!--<div class="form-group">
-            <label for="titulo">Coordenadas</label>
-            <input 
-                type="text" 
-                class="form-control" 
-                id="latitud"
-                />
-            <input 
-                type="text" 
-                class="form-control" 
-                id="longitud"
-                />
-        </div>-->
-
-        
     </fieldset>
 
     <button type="button" onclick="llamadaafetch();" class="btn btn-secondary" id="btnFetch">Llamar a fetch</button>
