@@ -1,7 +1,9 @@
    
 
 let latitud, longitud;
+let permission;
 
+verifyingNotificationPermission();
 
 function verifyingNotificationPermission() {
     loaderVisible();
