@@ -3,19 +3,8 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('simple-sw-v4').then(function(cache) {
       return cache.addAll([
-        'assets/css/mma.css',
-        'assets/css/bootstrap.css',
         'assets/img/logo.png',
-        'assets/js/main.js',
-        'assets/js/bootstrap.min.js',
-        'assets/js/custom.js',
-        'assets/js/jquery.min.js',
-        'assets/js/popper.min.js',
-        'paginas/agregar.js',
-        'paginas/listar.js',
-        'assets/img/loading-gears-animation-10.gif',
-        'assets/img/favicon-32x32.png',
-        'assets/img/favicon-96x96.png'       
+        'index.html'    
       ]);
     })
   );
@@ -62,9 +51,6 @@ self.addEventListener('sync', function(event){
 });
 
 
-
-
-
 self.addEventListener('push', function(event) {
   //console.log('[Service Worker] Push Received.');
   //console.log(event.data);
@@ -72,8 +58,8 @@ self.addEventListener('push', function(event) {
   const title = 'Push Prueba';
   const options = {
     body: 'funciona!.',
-    icon: 'apple-icon-60x60.png',
-    badge: 'apple-icon-60x60.png'
+    icon: 'assets/img/apple-icon-60x60.png',
+    badge: 'assets/img/apple-icon-60x60.png'
   };
 
   event.waitUntil(self.registration.showNotification(title, options));
