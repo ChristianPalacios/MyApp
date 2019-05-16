@@ -3,16 +3,6 @@
 let latitud, longitud;
 let permission;
 
-verifyingNotificationPermission();
-
-function verifyingNotificationPermission() {
-    loaderVisible();
-    Notification.requestPermission().then(permission => {
-           loaderInvisible();
-            console.log(permission);
-    });  
-}
-
 
 function cargarPagina(archivoPagina){
     var misCabeceras = new Headers();
@@ -61,8 +51,6 @@ function solicitarPermisosPush(){
     });
 }
 
-
-
 function getUbicacion(){
     return new Promise( (resolve, reject) => {
         if("geolocation" in navigator){
@@ -75,7 +63,6 @@ function getUbicacion(){
     })
 }
 
-
 function llamadaafetch(){
     let promesafetch = fetch('https://jsonplaceholder.typicode.com/posts/1');
     promesafetch
@@ -84,4 +71,13 @@ function llamadaafetch(){
 
 }
 
+verifyingNotificationPermission();
+
+function verifyingNotificationPermission() {
+    loaderVisible();
+    Notification.requestPermission().then(permission => {
+           loaderInvisible();
+            console.log(permission);
+    });  
+}
 
